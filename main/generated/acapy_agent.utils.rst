@@ -49,6 +49,14 @@ acapy\_agent.utils.env module
    :undoc-members:
    :show-inheritance:
 
+acapy\_agent.utils.extract\_validation\_error module
+----------------------------------------------------
+
+.. automodule:: acapy_agent.utils.extract_validation_error
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 acapy\_agent.utils.general module
 ---------------------------------
 
@@ -105,6 +113,14 @@ acapy\_agent.utils.repeat module
    :undoc-members:
    :show-inheritance:
 
+acapy\_agent.utils.server module
+--------------------------------
+
+.. automodule:: acapy_agent.utils.server
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
 acapy\_agent.utils.stats module
 -------------------------------
 
@@ -117,6 +133,14 @@ acapy\_agent.utils.task\_queue module
 -------------------------------------
 
 .. automodule:: acapy_agent.utils.task_queue
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+acapy\_agent.utils.testing module
+---------------------------------
+
+.. automodule:: acapy_agent.utils.testing
    :members:
    :undoc-members:
    :show-inheritance:
