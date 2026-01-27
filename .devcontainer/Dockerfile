@@ -2,6 +2,10 @@
 ARG VARIANT="3.13"
 FROM mcr.microsoft.com/devcontainers/python:${VARIANT}
 
+# Remove the Yarn repository with expired GPG key to prevent apt-get failures
+# This is a workaround for https://github.com/yarnpkg/yarn/issues/7866
+RUN rm -f /etc/apt/sources.list.d/yarn.list || true
+
 ARG POETRY_VERSION="2.1.1"
 ENV POETRY_HOME="/opt/poetry" \
     POETRY_VERSION=${POETRY_VERSION}
